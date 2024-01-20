@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+#sidebar{
+    height: 100%;
+    background-color: black;
+}
+#cartoon-logo{
+ height: 10px;
+ width: 30px;
+ padding-left:15px;
+}
+#c2{
+    border-bottom: 2px solid grey;
+    padding-bottom: 10px;
+}
+#c2 h3{
+    color:white;
+    padding-top: 260px;
+    padding-left: 48px;
+    font-size: 28px;
+}
+#c2 p{
+    color: white;
+     padding-left:130px;
+     padding-top:3px;
+     color: red;
+}
+.sidebar2{
+    padding-bottom:20px;
+}
+
+.sidebar2 h2{
+    color: white;
+    padding-top:10px;
+    padding-left:110px;
+}
+.sidebar2 li{
+    padding-top:6px;
+}
+.sidebar2 li a{
+    color: white;
+    text-decoration: none;
+}
+.sidebar2 ul{
+    padding-left:29px;
+    padding-top:10px;
+}
+#sidebar3 h2{
+    color: white;
+    padding-top:10px;
+    padding-left:110px;
+}
+#sidebar3 li{
+    padding-top:6px;
+}
+#sidebar3 li a{
+    color: white;
+    text-decoration: none;
+}
+#sidebar3 ul{
+    padding-left:29px;
+    padding-top:10px;
+}
+#sidebar3{
+    border-top: 2px solid grey;
+}
+/* .navbar{
+    height: 50px;
+    width: 70px;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+#right-side{
+    height: 100%;
+    background-color: rgb(44, 42, 42);
+}
+
+#top{
+    height:45px;
+    display: flex;
+    align-items: center;
+    background-color:rgb(98, 97, 97);
+    gap: 20px;
+    padding-left:8px;
+}
+#top input{
+ height: 80%;
+ width: 80%;
+ border-radius: 5px;
+ border-top: 0;
+ padding-left:10px;
+}
+
+#right-side button{
+height: 35px;
+width: 140px;
+color: white;
+background-color: red;
+border-radius: 9px;
+}
+
+#banner img{
+    height:100%;
+    width: 75vw;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#title h1{
+    color: white;
+    font-size: 45px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+/* .meal{
+    width: 23%;
+    height:16%;
+    background-color: grey;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.meal1 > img{
+    height: 70%;
+    width: 70%;
+    padding-left: 7px;
+    padding-top: 8px;
+}
+.meal1 > h2{
+    color: white;
+    padding-left: 8px;
+    font-size:25px;
+}
+.meal1 > h4{
+    color: white;
+    padding-left: 8px;
+}
+.meal1 > button{
+    background-color: rgb(70, 66, 66);
+    width: 40px;
+}
+.p1{
+    margin-top: -20px;
+   
+}
+.p1{
+margin-left: 170px;
+} */
+
+.menu-cards{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.card{
+    background-color:#272A30;
+    color:azure;
+}
+.add{
+    border:none;
+}
